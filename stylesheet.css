@@ -1,0 +1,108 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+    background-image: url(./photos/image.jpg);
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+     }  
+
+     .container {
+        font-family: Arial, Helvetica, sans-serif;
+        position: relative;
+        background: #FFFFFF;
+        max-width: 400px;
+        min-height: 200px;
+        margin: 0 auto 100px;
+        padding: 30px;
+        border-radius: 15px;
+        box-shadow: 0 0 70px 0 rgba(36, 9, 234, 0.2), 0 5px 5px 0 rgba(217, 10, 179, 0.24);
+        opacity: .8;
+      }
+    .container input {
+    font-family: "Roboto", sans-serif;
+    background: #f2f2f2;
+    width: 100%;
+    border-radius: 5px;
+    border: 0;
+    margin: 0 0 10px;
+  }
+
+  .first_name {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: 0 2px 5px rgb(0 0 0 / 0.1);
+    margin-top: 30px;
+    border-radius: 4px;
+    background-color: #eee;
+    padding: 5px;
+  }
+  
+   .last_name {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 1px solid rgb(0,0,0);
+    box-shadow: 0 2px 5px rgb(0 0 0 / 0.1);
+    margin-top: 10px;
+    border-radius: 4px;
+    background-color: #eee;
+    padding: 5px;
+   }
+   .email {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 1px solid rgb(0,0,0);
+    box-shadow: 0 2px 5px rgb(0 0 0 / 0.1);
+    margin-top: 10px;
+    border-radius: 4px;
+    background-color: #eee;
+    padding: 5px;
+   }
+   .password {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 1px solid rgb(0,0,0);
+    box-shadow: 0 2px 5px rgb(0 0 0 / 0.1);
+    margin-top: 10px;
+    border-radius: 4px;
+    background-color: #eee;
+    padding: 5px;
+   }
+   .check_box label {
+    position: relative;
+    left: 22px;
+    bottom: 15px;
+  }
+  .check_box input {
+    position: relative;
+    right: 190px;
+    top: 27px;
+    cursor: pointer;
+    
+  }
+  .submit_button button {
+    width: 10.6cm;
+    height: 6vh;
+    align-content: center;
+    outline: none;
+    cursor: pointer;
+    background: linear-gradient(#061e97, #7828e7e7);
+    border: none;
+    color: white;
+    letter-spacing: 1px;
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+    font-weight: 600;
+    position: relative;
+    box-shadow: 0 0 70px 0 rgba(36, 9, 234, 0.2), 0 7px 10px 0 rgba(217, 10, 179, 0.24);
+  }
+  .submit_button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 1px rgb(102, 102, 102);
+    transform: translateY(0.5px);
+  }
+  .submit_button:hover{
+    opacity: 0.5;
+  }
+  .footer p{
+      font-style: italic;
+      display:flex;
+      justify-content: center;
+      color: whitesmoke;
+      letter-spacing: 3px;
+  }
